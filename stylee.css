@@ -12,8 +12,8 @@ body {
   background-size: cover;
   justify-content: center;
   font-family: "Baloo Tammudu 2", cursive;
-  color:red;
-  margin:auto;
+  color: red;
+  margin: auto;
 }
 
 /* Search Bar */
@@ -23,7 +23,6 @@ body {
   border: none;
   margin: 1% 15%;
   padding: 2% 10% 2% 3%;
-  
 }
 
 .search-bar #city-input {
@@ -36,7 +35,7 @@ body {
   color: black;
 }
 
-#searchbtn{
+#searchbtn {
   border-radius: 10px;
   cursor: pointer;
   background-color: transparent;
@@ -47,7 +46,7 @@ body {
   margin: 0 1%;
 }
 
-#currentbtn{
+#currentbtn {
   width: 14%;
   border-radius: 10px;
   cursor: pointer;
