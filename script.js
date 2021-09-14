@@ -1,4 +1,4 @@
-// In your project, display the current date and time using JavaScript: Tuesday 16:00
+
 let time = document.querySelector("#date")
 let now = new Date();
 let date = now.getDate();
@@ -15,20 +15,7 @@ let day = days[now.getDay()];
 time.innerHTML = `${day} ${month} ${date}, ${hour}:${minutes}, ${year}`;
 
 
-// // 🕵️‍♀️Feature #2
-// // Add a search engine, when searching for a city (i.e. Paris), display the city name on the page after the user submits the form.
-// function showDay(event) {
-//     event.preventDefault();
-//     let input = document.querySelector("#city-input");
-//     let city = document.querySelector("#city-name");
-//     city.innerHTML = input.value;
-// }
-// let form = document.querySelector("form");
-// form.addEventListener("submit", showDay);
 
-
-// 🙀Bonus Feature
-// Display a fake temperature (i.e 17) in Celsius and add a link to convert it to Fahrenheit. When clicking on it, it should convert the temperature to Fahrenheit. When clicking on Celsius, it should convert it back to Celsius.
 function celciusTemp(event) {
     event.preventDefault();
     document.querySelector("#temp").innerHTML = temperature;
@@ -82,8 +69,6 @@ function getCurrentposition() {
 let button = document.querySelector("#currentbtn");
 button.addEventListener("click", getCurrentposition);
 
-
-// Search Engine week 5 Search Locationp
 
 function searchTemp(response) {
     let searchTemp = Math.round(response.data.main.temp);
